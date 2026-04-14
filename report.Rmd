@@ -1,5 +1,6 @@
 ---
-title: "report"
+title: "Analysis of NBA Player Statistics"
+author: "Midterm Group 2"
+date: "`r format(Sys.Date(), '%m-%d-%y')`"
 output: html_document
 ---
-
