@@ -18,7 +18,8 @@ output/PE_output/PFbT_bar.rds: code/PE_code/01_PE_code.R
 # Clean Command - needs to be edited to account for other folders
 .PHONY: clean
 clean:
-	rm -f output/PE_output/*.rds && rm -f report.html && rm -f output/sl_output/*.rds
+	rm -f output/PE_output/*.rds && rm -f report.html && rm -f output/sl_output/*.rds \
+	rm -f output/em_output/*csv && rm -f output/em_output/*.png
 
 # Renv install command - delete #s once ready
 #.PHONY: install
