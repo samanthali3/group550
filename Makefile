@@ -68,7 +68,7 @@ clean:
 	&& rm -f output/em_output/*csv && rm -f output/em_output/*.png \
 	&& rm -f output/output_mm/*rds
 
-# Renv install command - delete #s once ready
-#.PHONY: install
-#install:
-#	Rscript -e "renv::restore(prompt = FALSE)"
+# Renv install command
+.PHONY: install
+install:
+Rscript -e "renv::restore(prompt = FALSE)"
